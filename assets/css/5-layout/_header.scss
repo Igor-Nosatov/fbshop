@@ -1,0 +1,132 @@
+nav.navbar {
+    background-color: $dark-blue !important;
+}
+
+nav .navbar-nav {
+    background-color: $dark-blue !important;
+
+    li {
+        a {
+            color: $white !important;
+        }
+    }
+}
+
+.logo {
+    margin: $mt-logo $mr-logo $mb-logo $ml-logo;
+}
+
+
+
+@media (max-width: 768px) {
+    
+
+
+}
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+    
+.search-icon {
+    width:50px;
+}
+ .navbar-nav{
+ margin-left:50px;
+ }
+
+}
+
+
+
+
+.nav-link {
+    font-family: "Ionicons"!important;
+    font-size: $header-navlink;
+    font-weight: $bold;
+    color: $white !important;
+}
+
+.log {
+    margin-left: $log;
+}
+
+.ic_bs {
+    margin-top: $heade-mr-top;
+    margin-right: $ic-r;
+    margin-left: $ic-l;
+}
+
+.basket-icon {
+    margin-left: $heade-mr-top + 30;
+}
+
+
+/*
+.search-icon {
+    margin-top: $heade-mr-top - 7;
+    margin-left: $heade-mr-top + 2;
+}
+ */
+.number {
+    width: $heade-mr-top + 10;
+    height: $heade-mr-top + 10;
+    border-radius: 100%;
+    background-color: $white;
+    color: $violet;
+    position: relative;
+    bottom: $heade-mr-top + 14;
+    left: $heade-mr-top + 52;
+    padding: 3px 6px;
+    font-size: $font-number;
+}
+
+
+@media (max-width: 768px) {
+    
+.logo {
+    margin: 35px 0px 30px;
+}
+
+}
+
+.nav-link {
+    font-family: "Ionicons"!important;
+    font-size: $header-navlink;
+    font-weight: $bold;
+    color: $white !important;
+}
+
+.log {
+    margin-left: $log;
+}
+
+.ic_bs {
+    margin-top: $heade-mr-top;
+    margin-right: $ic-r;
+    margin-left: $ic-l;
+}
+
+.basket-icon {
+    margin-left: $heade-mr-top + 30;
+}
+
+
+
+.number {
+    width: $heade-mr-top + 10;
+    height: $heade-mr-top + 10;
+    border-radius: 100%;
+    background-color: $white;
+    color: $violet;
+    position: relative;
+    bottom: $heade-mr-top + 14;
+    left: $heade-mr-top + 52;
+    padding: 3px 6px;
+    font-size: $font-number;
+}

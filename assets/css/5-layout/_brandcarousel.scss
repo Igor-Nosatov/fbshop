@@ -1,0 +1,67 @@
+/*image*/
+
+.brandcarousel {
+    margin: 0 140px;
+    .active:after {
+        content: none !important;
+        @include outline-none;
+    }
+}
+.brand-img {
+    width: 10vw;
+    height: 7vh;
+    margin-top: $mtb-brand;
+    margin-bottom: $mtb-brand;
+    margin-left: $mlr-brand;
+    margin-right: $mlr-brand;
+}
+
+/*carousel indicators */
+
+.brand-carousel1,
+.brand-carousel2 {
+    height: $indіcator;
+    width: $indіcator;
+    @include outline-none;
+    background-image: none;
+    color: $light-grey;
+    &:hover{
+    color:$darknest-blue;
+    }
+}
+
+.brand-carousel1 {
+    margin-top: 70px;
+    margin-right: $brand-mr;
+}
+
+.brand-carousel2 {
+    margin-left: $brand-mr;
+    margin-top: 70px;
+}
+
+.brand-inner {
+    margin-left: 40px;
+}
+
+.banner-ind>li {
+    border-radius: 100%;
+}
+
+.icon-arrow-left,
+.icon-arrow-right{
+  color: $grey;
+    &:hover{
+    color:$darknest-blue;
+    }
+}
+
+.breadcrumb {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0.75rem 1rem;
+    margin-bottom: 1rem;
+    list-style: none;
+    /* background-color: none !important; */
+    border-radius: 0.25rem;
+}

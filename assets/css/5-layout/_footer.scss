@@ -1,0 +1,168 @@
+footer{
+  background-color:$brown;
+  
+  li .nav-item{
+     color:$white;
+  }
+}
+
+.fr{
+  margin-right:$fr;
+}
+.fl{
+  margin-left:$fl;
+}
+.fm{
+  margin-right:$fm-r;
+  margin-left:$fm-l;
+
+}
+/*logo-footer*/
+.logo-footer{
+  margin-top:$flogo;
+  margin-left:$flogo - 20px;
+}
+
+
+/*icons*/
+
+.icon-nav{
+  margin-top:$navfa;
+}
+
+i.fab{
+  color:$grey;
+  cursor:pointer;
+  margin-left:$fa;
+
+  &:hover{
+      color:$white;
+  }
+}
+
+
+/*nav footer*/
+.navfooter{
+  margin-top:$navfooter;
+
+}
+.fb-second{
+  margin-left:$fbsec !important;
+}
+
+.flink{
+  margin-right:$flink;
+  font-size:$footersize;
+}
+
+.subscr{
+  margin-top:$subsc;
+  font-size:$footersize;
+}
+
+/*form*/
+input[type=email] {
+    width:$sizeform1;
+    height:$form;
+    box-sizing: border-box;
+    font-family: $monte;
+    font-size:footersize;
+    background:$white; 
+    border:0 none;
+    cursor:pointer;
+    margin-right:$mrfooter + 5;
+    margin-left:$mrfooter;
+    margin-bottom:$mrfooter;
+}
+
+input[type=email]::-webkit-input-placeholder{
+    font-family: $monte;
+    font-size:$footersize;
+    color:$brown;
+    padding-left:$input-email-pad;
+   }
+
+input[type=submit] {
+    width:$sizeform2;
+    height:$form;
+    box-sizing: border-box;
+    font-family: $monte;
+    font-size:$footersize; 
+    background:$white; 
+    border:0 none;
+    cursor:pointer;
+     margin-left:$mrfooter;
+     margin-bottom:$mrfooter;
+}
+
+.thirdblock{
+  margin-left:$thblock;
+}
+.contact {
+  padding-left:0px !important;
+  font-size: fontsmall;
+   margin-left:$paynav - 35;
+}
+
+.adresslink{
+  margin-bottom:1px !important;
+  font-weight:bold;
+   margin-left:$paynav - 35;
+}
+
+.paynav{
+  margin-left:$paynav - 35;
+  margin-bottom:$subsc;
+}
+
+.adress{
+  color:$white;
+  font-family: "Ionicons"!important;
+  font-size: $paynav - 27;
+  margin-top:$paynav - 30;
+  margin-bottom:$paynav - 5;
+}
+
+/*==============Media Screen============*/
+@media (max-width: 768px) {
+    
+.fl{
+  margin-left:$fl - 60;
+}
+
+
+.contact {
+  padding-left:0px !important;
+  font-size: fontsmall;
+   margin-left:$paynav - 10;
+}
+
+.adresslink{
+  margin-bottom:1px !important;
+  font-weight:bold;
+   margin-left:$paynav - 10;
+}
+
+.paynav{
+  margin-left:$paynav - 10;
+  margin-bottom:$subsc;
+}
+
+.adress{
+  color:$white;
+  font-family: "Ionicons"!important;
+  font-size: $paynav - 27;
+  margin-top:$paynav - 30;
+  margin-bottom:$paynav - 5;
+}
+
+
+
+
+
+
+
+
+
+
+}

@@ -1,0 +1,33 @@
+
+.product-banner{
+	 background-color:$light-brown;
+	margin: 0 $bp;
+	margin-top:  $bp;
+	color:$white !important;
+}
+
+
+.ban-pr1{
+	@include font-monte;
+	font-size:$pr-z1;
+	padding:$txt-ban-pr1  0px $txt-ban-pr2 50px;
+}
+.ban-pr2{
+	font-family:$play;
+	font-size:$pr-z2;
+	font-weight:bold;
+	padding:0 0 0 50px;
+
+}
+.ban-pr3{
+	@include font-monte;
+	font-size:$pr-z3;
+	padding:0 0 0 75px;
+
+}
+
+
+.banner-prodtxt{
+	margin-left:$prod-ml;
+	margin-right:$prod-mr;
+}

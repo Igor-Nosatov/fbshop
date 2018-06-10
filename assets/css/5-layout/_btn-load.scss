@@ -1,0 +1,132 @@
+.btn-load{
+	font-weight:bold;
+	border:none;
+	outline:none;
+	background:none;
+	margin:$lfb 0 $lfb $lfb  !important;
+	padding:10px;
+	float:left;
+	width:154px;
+	cursor:pointer;
+
+	&:hover{
+       border:none;
+	outline:none;
+	background:none;
+	}
+}
+
+
+.btn-load1{
+	font-weight:bold;
+	border:none;
+	outline:none;
+	background:none;
+	margin:5% 43%;
+	padding:10px;
+	float:left;
+	width:154px;
+	cursor:pointer;
+
+	&:hover{
+       border:none;
+	outline:none;
+	background:none;
+	}
+}
+
+@media (max-width:992px){
+	.btn-load{
+	font-weight:bold;
+	border:none;
+	outline:none;
+	background:none;
+	margin:10% -16% !important;
+	padding:10px;
+	float:left;
+	width:154px;
+	cursor:pointer;
+
+	&:hover{
+       border:none;
+	outline:none;
+	background:none;
+	}
+}
+}
+
+
+
+
+
+
+@media(max-width: 1024px){
+	.btn-load{
+	font-weight:bold;
+	border:none;
+	outline:none;
+	background:none;
+	margin:10% 0.5% !important;
+	padding:10px;
+	float:left;
+	width:154px;
+	cursor:pointer;
+
+	&:hover{
+       border:none;
+	outline:none;
+	background:none;
+	}
+}
+}
+
+
+
+
+
+@media (max-width: 768px) {
+
+  .btn-load{
+	font-weight:bold;
+	border:none;
+	outline:none;
+	background:none;
+	margin:10% -10% !important;
+	padding:10px;
+	float:left;
+	width:154px;
+	cursor:pointer;
+
+	&:hover{
+       border:none;
+	outline:none;
+	background:none;
+	}
+}
+
+
+.btn-load1{
+	font-weight:bold;
+	border:none;
+	outline:none;
+	background:none;
+	margin:5% 19%;
+	padding:10px;
+	float:left;
+	width:154px;
+	cursor:pointer;
+
+	&:hover{
+       border:none;
+	outline:none;
+	background:none;
+	}
+}
+
+.catalog-show1{
+	    margin: 20px 45px 0 !important;
+    margin-bottom: 0!important;
+    border-left: 1px solid #ddd;
+}
+}
+

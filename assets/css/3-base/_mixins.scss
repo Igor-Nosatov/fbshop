@@ -1,0 +1,11 @@
+/* Custom Mixins -------------------- */
+
+@mixin outline-none {
+  outline:none !important;
+  border: none !important;
+}
+
+@mixin font-monte{
+	font-weight:bold;
+	font-family:$monte;
+}

@@ -1,0 +1,97 @@
+/*carousel indicators */
+.banner{
+  .fas{ color:$grey;
+  &:hover{
+  color:$light-grey;
+  }
+  }
+}
+.banner-ind li {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+}
+
+.banner-carousel1,
+.banner-carousel2 {
+  height: $indіcator;
+  width: $indіcator;
+  @include outline-none;
+  background-image: none;
+}
+
+.banner-carousel1{
+    margin-top:70px;
+  margin-right:$brand-mr;
+}
+.banner-carousel2{
+  margin-left:$brand-mr;
+   margin-top:70px;
+}
+
+.banner-inner{
+  margin-left:40px;
+  padding: 20px !important;
+}
+
+.banner-brand {
+  border:1px solid $light-grey;
+  border-width: 0 4px 4px 0;
+  display: inline-block;
+  padding: 6px;
+}
+
+.banner-brand:hover {
+  border:1px solid $dark-blue;
+  border-width: 0 4px 4px 0;
+  display: inline-block;
+  padding: 6px;
+}
+
+.icon-banner {
+  border: 1px solid $dark-blue;
+  border-width: 0 4px 4px 0;
+  display: inline-block;
+  padding: 6px;
+}
+
+.icon-banner:hover {
+  border: 1px solid $white;
+  border-width: 0 4px 4px 0;
+  display: inline-block;
+  padding: 6px;
+}
+
+
+.right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+
+.left {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+}
+.banner-ind li {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    margin-bottom: 30px;
+}
+
+
+@media (max-width: 768px) {
+
+.banner-row{
+  margin-bottom:20px;
+
+}
+
+
+.banner-ind li {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  top:50px;
+}
+}

@@ -1,0 +1,310 @@
+/* Base Styles -------------------- */
+
+body {
+    background-color: #ffffff;
+    outline: none !important;
+    &:hover {
+        outline: none !important;
+    }
+    &:active {
+        outline: none !important;
+    }
+}
+
+li.page-item {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+a {
+    color: #000 !important;
+    text-decoration: none;
+}
+
+p {
+    color: $white;
+}
+
+header,
+main,
+footer,
+row {
+    padding: 0px !important;
+    margin: 0px !important;
+}
+/* END  Base Styles -------------------- */
+
+
+$fontsmall:13px;
+
+/*===============HEADER====================*/
+
+$ml-logo:100px;
+$mr-logo:100px;
+$mt-logo:35px;
+$mb-logo:30px;
+$ic-r:$mr-logo;
+$ic-l:$mr-logo -50;
+$log:$ml-logo+170;
+$fl:$ml-logo;
+$fr:$mr-logo;
+$fm-l:$ml-logo+75;
+$fm-r:$mt-logo+$mb-logo;
+$header-navlink:12px;
+$heade-mr-top:10px;
+$font-number:10px;
+/*logo*/
+
+$flogo:40px;
+
+
+/*===============END HEADER====================*/
+
+
+
+
+
+
+
+
+
+
+
+
+/*MAIN*/
+
+
+/*slider*/
+
+$hightsl:650px;
+$slider-top:25px;
+$slmaintxt:72px;
+$fontsize:18px;
+
+
+/*=========slider indicators========*/
+
+$btn-sl:40px;
+$indіcator:70px;
+$mrindc:90px;
+
+
+/*feature variables*/
+
+$feature-margin:20px;
+$fblock:35;
+$tb-fb:20px;
+$lfb:40px;
+$rfb:40px;
+$fs1:18px;
+$fs2:14px;
+$fradius:10px;
+
+
+
+/*MAIN PRODUCT PAGE*/
+
+$card:40px;
+$prcard:10px;
+
+
+
+/*=======Image Fire==========*/
+
+$size-img-fire:50px;
+
+
+/*image product card*/
+
+$pr-img:10px;
+$pr-img1:70px;
+
+$card-pad1:70px;
+$card-pad2:30px;
+$card-pad3:120px;
+$text-mp1:50px;
+
+
+
+/*===========breadcrumb========*/
+
+$crumbs1:50px;
+$crumbs2:30px;
+$pad-crumb:15px;
+$bread-crumb-h:250px;
+
+
+
+
+/*product font size*/
+
+$prod-size1:18px;
+$prod-size2:14px;
+$pr-size3:30px;
+$pd-prod:90px;
+
+
+/*product banner size*/
+
+$pr-z1:16px;
+$pr-z2:26px;
+$pr-z3:16px;
+$prod-mr:70px;
+$prod-ml:80px;
+
+/*=========price slider===========*/
+$pr-sl-width:240px;
+$pr-sl-marg:10px;
+
+
+/*===================Blog INFO===============*/
+
+$commerce-main-size:100px;
+$txt-black:80px;
+$violet-btn1:10px;
+$violet-btn2:15px;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*===================End Blog INFO===============*/
+
+
+/*_CARD*/
+
+$card-size:12px;
+$card-width:500px;
+$mrpills:40px;
+
+
+
+
+/*=======================TAB in Product Page==============*/
+
+$tab-bottom:30px;
+$tab-margin:40px;
+$tab-margin-pane:$tab-margin+115;
+
+
+
+
+/*brand-carousel size*/
+
+$mtb-brand:76px;
+$mlr-brand:50px;
+$brandsize:60px;
+$brand-mr:20px;
+$brand-inner:35px;
+
+
+/*banner-product*/
+
+$bp:40px;
+$txt-ban-pr1:90px;
+$txt-ban-pr2:15px;
+
+
+
+/*=======================CATALOG VAR==============*/
+
+$catalog-show-lr:45px;
+$catalog-show-bottom:45px;
+$catalog-txt1:14px;
+$catalog-txt2:30px;
+$catalog-txt2-mr:50px;
+$catalog-margin:80px;
+$catalog-margin1:70px;
+$btn-catalog1:15px;
+$btn-catalog2:40px;
+$catalog-commerce:330px;
+$catalog-bottom:90px;
+$catalog-show:270px;
+$catalog-mr-bottom:45px;
+$arrow-pg:30%;
+$pag1:35px;
+$pag2:25px;
+$txt-catalog:14px;
+$margin-left:10px;
+$top-filter:30px;
+
+/*======Filter border=======*/
+
+$padding-filter:30px;
+
+
+
+/*========ACCORDEON VAR==========*/
+
+$ac-size1:14px;
+$ac-pad:16px;
+$ac-pad-top:20px;
+
+
+/*==================Banner home page===============*/
+
+$txt-btn-size:14px;
+$banner-pad1:14px;
+$banner-pad2:30px;
+$banner-radius:150px;
+$ml-banner:90px;
+$badge-txt:32px;
+
+
+
+
+
+
+
+
+/*=======================Banner catalog==============*/
+
+$banner-txt1:14px;
+$banner-txt2:30px;
+$margin-banner-indicators:100px;
+$indicator-radius:10px;
+
+
+
+
+
+
+/* ===================FOOTER========*/
+
+/*font icon size*/
+
+$fa:20px;
+$navfa:$fa+40;
+$navfooter:40px;
+$subsc:40px;
+$fbsec:$subsc;
+$flink:5px;
+$flogo:40px;
+/*form*/
+
+$form:$flogo;
+$footersize:13px;
+$sizeform1:90%;
+$sizeform2:140px;
+$mrfooter:15px;
+$input-email-pad:30px;
+/*pay list*/
+
+$paynav:40px;
+$paynavleft:$paynav -35;
+$thblock:10px;
+
+/* ===================END FOOTER========*/

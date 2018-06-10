@@ -1,0 +1,189 @@
+
+.blog-margin{
+	margin-right:35px;
+	margin-left:30px;
+}
+
+.txt-main-commerce1{
+	font-family:$monte;
+	font-weight:bold;
+	color:$white;
+	font-size:$commerce-main-size - 86;
+	padding-top:$commerce-main-size - 50;
+	padding-bottom:$commerce-main-size - 40;
+}
+
+/*===============BACKGROUND-Image=========================*/
+div.commerce-main{
+    background:url(../../../assets/img/bike.png);
+    background-repeat: no-repeat;
+    margin-top:$commerce-main-size - 60;
+	margin-left:$lfb;
+}
+.commerce-main2{
+    background:url(../../../assets/img/blog1.png);
+    background-repeat: no-repeat;
+    background-size: 95% 140%;
+    bacground-position: center center;
+    margin-top:23px;
+    margin-left:50px;
+    margin-bottom:50px;
+  
+}
+.violet-btn{
+	padding:$violet-btn1 + 1  $violet-btn2 ;
+	background-color:#3853d8;
+	border-radius:150px;
+	@include outline-none;
+	@include font-monte;
+	cursor:pointer;
+	color:$white;
+	font-size:$fs2;
+	margin-bottom:$commerce-main-size - 70;
+}
+
+
+
+.txt-main-commerce2{
+	font-family:$play;
+	font-weight:600;
+	font-size:$commerce-main-size;
+	color:$white;
+	padding-bottom:$commerce-main-size - 75;
+
+}
+
+.txt-main-commerce3{
+	font-family:$play;
+	font-size:$commerce-main-size - 76;
+	color:$white;
+	padding-bottom:$commerce-main-size - 10;
+}
+
+
+.blog-txt-black{
+	color:black;
+	@include font-monte;
+	padding-left:$txt-black;
+	padding-top:$txt-black - 55;
+	padding-bottom:$txt-black - 55;
+	border:1px solid $light-grey;
+	margin-top:$txt-black - 41;
+	margin-bottom:0px;
+
+}
+
+.blog-box-arrow{
+    margin-top:$txt-black - 41;
+	border: 1px solid $light-grey;
+}
+
+
+
+.arrow-btn1{
+	background:none;
+	border:none;
+	padding:30px;
+	margin-left:20px;
+	font-size:12px;
+	text-align:center;
+	cursor:pointer;
+	&:hover{
+	@include outline-none;
+	}
+
+}
+
+.arrow-btn2{
+	background:none;
+	border:none;
+	padding:30px;
+	margin-left:18px;
+	font-size:12px;
+	text-align:center;
+	cursor:pointer;
+	&:hover{
+	@include outline-none;
+	}
+
+}
+
+
+/*===========BLOG INFO===========*/
+.txt-blog1{
+	font-family:$monte;
+	font-size:10px;
+	font-weight:10px;
+	color:$white;
+	padding-top:180px;
+	margin-bottom:0px;
+	padding-left:50px;
+}
+.txt-blog2{
+font-family:$play;
+	font-size:18px;
+	font-weight:bold;
+	color:$white;
+	padding-top:8px;
+	padding-left:50px;
+}
+.txt-blog3{
+	@include font-monte;
+	font-size:10px;
+	color:$white;
+	padding-left:50px;
+	padding-bottom:60px;
+}
+
+.main-info-blog{
+	margin-left:30px;
+}
+
+.blog-border1{
+  border-left:1px solid $light-grey;
+  border-bottom:1px solid $light-grey;
+}
+.blog-border2{
+  border-right:1px solid $light-grey;
+  border-bottom:1px solid $light-grey;
+  padding-top:23px;
+  padding-right:100px;	
+}
+
+
+.txt-small-blog1{
+	@include font-monte;
+	font-size:10px;
+	color:$light-grey;
+}
+.txt-small-blog2{
+	font-family:$play;
+	font-size:14px;
+	font-weight:bold;
+	color:$black;
+}
+.txt-small-blog3{
+	@include font-monte;
+	font-size:10px;
+	color:$light-grey;
+}
+.view-all{
+	font-family:$monte;
+	font-size:16px;
+	font-weight:bolder;
+	color:$black;
+}
+
+.arrow-round-forward{
+	color:$black !important;
+}
+
+.margin-view{
+	margin-top:90px;
+}
+
+.flex-fill:nth-child(4){
+    border-bottom: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    margin-bottom: none !important;
+}
